@@ -119,10 +119,16 @@ body {
   justify-content: center; 
 }
 
-.result h1 {
+.container h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.result span {
   font-size: 60px;
   line-height: 70px;
   color: hsl(0, 0%, 100%);
+  font-weight: 700;
 }
 
 .result p2 span {
@@ -141,7 +147,6 @@ body {
   justify-content: center; 
   border-radius: 0 20px 20px 0; 
 }
-
 
 .summary ul {
   list-style: none;
@@ -165,7 +170,9 @@ ul span {
   gap: 5px;
 } 
 
-.summary h3 {
+.summary h2 {
+  font-size: 20px;
+  font-weight: 700;
   margin-inline: 30px;
   color: hsl(224, 30%, 27%);
 }
@@ -241,7 +248,7 @@ ul span {
   }
 
   .result h1 {
-    font-size: 50px;
+    font-size: 20px;
   } 
 
   .summary {
