@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html aria-label ="languange" lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,11 +25,12 @@
       }
     </style>
   </head>
-  <body class="container">
-    <div aria-label="reuslt-box" class="result">
+  <body>
+    <main class="container" >
+    <div role="reuslt-box" class="result">
       <h1>Your Result</h1>
       <div class="result-box">
-        <span aria-labelledby="score">76</span>
+        <span>76</span>
         <p>of 100</p>
       </div>
       <div class="result-comment">
@@ -37,8 +38,8 @@
           have taken these tests.
       </div>
     </div>
-    <div aria-label="summary-box" class="summary">
-      <h2 aria-labelledby="summary">Summary</h2>
+    <div role="summary-box" class="summary">
+      <h2>Summary</h2>
       <ul>
         <li class="reaction">
           <span>
@@ -73,5 +74,6 @@
         <a href="">Continue</a>
       </div>
     </div>
+  </main>
   </body>
 </html>
